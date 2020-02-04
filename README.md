@@ -4,7 +4,7 @@
     </a>
 </div>
 
-<h1 align="center">anonets nodejs client</h1>
+<h1 align="center">Nanonets nodejs client</h1>
 
 ** **
 
@@ -36,5 +36,3 @@ You can run inference on a single image or multiple images. You can use urls as 
 ```
 
 ** **
-
- NOTE: The data in the ```data``` directory is meant to serve as examples and is generated randomly to demonstrate training and inference code in the ```examples``` directory. Use said data to understand the format requirements for the library and not for building models. 
