@@ -31,9 +31,15 @@ Client.prototype.predict = function(options) {
     }
   }
 
-  if(fileURL) urlOptions.urls = fileURL
-  if(filePath) {
+  if(fileURL){
     urlOptions.formData = {
+      'urls' : fileURL,
+      'modelId': modelId
+    }
+  }
+  if(filePath) {
+      urlOptions.formData = {
+      'modelId': modelId,
         'file': {
         'value': fs.createReadStream(filePath),
         'options': { 

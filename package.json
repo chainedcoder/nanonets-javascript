@@ -1,6 +1,6 @@
 {
   "name": "nanonets",
-  "version": "1.0.9",
+  "version": "1.0.12",
   "description": "Nanonets API Javascript Client",
   "main": "index.js",
   "scripts": {
@@ -18,7 +18,7 @@
   "bugs": {
     "url": "https://github.com/NanoNets/nanonets-javascript/issues"
   },
-  "homepage": "https://github.com/NanoNets/nanonets-javascript#readme",
+  "homepage": "https://nanonets.com/",
   "dependencies": {
     "form-data": "^3.0.0",
     "request": "^2.88.0",
