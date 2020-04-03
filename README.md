@@ -4,7 +4,7 @@
     </a>
 </div>
 
-<h1 align="center">Nanonets nodejs client</h1>
+<h1 align="center">Nanonets Nodejs Client</h1>
 
 ** **
 
