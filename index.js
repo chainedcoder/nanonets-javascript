@@ -18,7 +18,7 @@ Client.prototype.predict = function(options) {
   fileURL = options.fileURL
   fileName = filePath ? filePath.split('/')[filePath.split('/').length - 1] : ''
 
-  let urlNanoNets = `http://app.nanonets.com/api/v2/${modelType}/Model/${modelId}/LabelFile/`
+  let urlNanoNets = `https://app.nanonets.com/api/v2/${modelType}/Model/${modelId}/LabelFile/`
   var urlOptions = {
     'method': 'POST',
     'url': urlNanoNets,
